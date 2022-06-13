@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <title>jQuery</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Assignment 7</h1>
+        </div>
+        <div class="container">
+            <div class="sidebar">
+                <ul>
+                    <li>Home</li>
+                    <li class="madLibs-li" id = "show-madLibs">Mad Libs</li>
+                    <li class="tomThumb-li" id = "show-tomThumb">Tom Thumb</li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="madLibs">
+                    <h2>Mad Libs</h2>
+                    <div class="form-control">
+                        <form id='formMad'>
+                            <div class="inputs">
+                                
+                                <label>Character name:</label>
+                                <input type="text" >
+                                <label>Character:</label>
+                                <input type="text" >
+                                <label>Adverb:</label>
+                                <input type="text" >
+                                <label>Adjective:</label>
+                                <input type="text" >
+                            </div>
+                            
+                            <div class="submit">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="answer-block" hidden>
+                        <div class="answer-title">
+                            <h2>Wendy's Crazy MadLibs Story</h2>
+                        </div>
+                        <div class="paragraph">
+                            <p>One day, my friend <span class="name"></span> was visitting New York and ran <br>
+                            into <span class="character"></span>. <span class="name"></span> ran <span class = "adverb"></span>
+                            to meet <span class="character"></span>. But <br>
+                            <span class="character"></span> turned out to be very <span class="adjective"></span> <br>
+                            <span class="adverb"></span> and <span class="name"></span> did not enjoy the meeting.            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tomThumb" hidden>
+                    <h2>Tom Thumb</h2>
+                    <div class="form-control">
+                        <form id='tomThumb'>
+                            <div class="inputs">
+                                <label>Image width (px):</label>
+                                <input type="text">
+                                <label>Image height (px):</label>
+                                <input type="text">
+                                <label>Number of Colors:</label>
+                                <input type="text">                  
+                            </div>
+                            
+                            <div class="submitTom">
+                                <button type="submit">Calculate file Size</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="answer-block" hidden>
+                        <div class="answer-title">
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            das
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
